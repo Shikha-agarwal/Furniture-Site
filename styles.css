@@ -1,0 +1,182 @@
+body{
+    text-align: center;
+}
+
+#home{
+    background:linear-gradient(to right,#E2DCD3,white);
+}
+.nav-item{
+    padding: 20px;
+    padding-top: 0;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: x-large;
+    color:#313C3E;
+}
+.navbar{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+h2{
+    font-weight: bold;
+    color: #936D56;
+}
+.homeRow , .attractionRow, .attractionAll, .aboutRow{
+    margin:auto 15%;
+    padding: 1rem;
+}
+.row2{
+    padding-bottom: 4rem;
+}
+hr{
+    width: 14%;
+    background-color: black;
+}
+.mainPara{
+    padding-top: 1rem;
+    width: 70%;
+}
+.mainImage{
+    width: 550px;
+    height: 451px;
+}
+.text{
+    text-align: left;
+    position: relative;
+    }
+.text1{
+    top:20%;
+}
+.text2{
+    top:5%;
+}
+.btn{
+    margin: 1rem auto 1rem auto;
+    background-color: #CCBAA2;
+}
+.mainImage2{
+    width: 350px;
+    height: 300px;
+}
+img{
+    margin:1rem auto;
+}
+
+#Attraction{
+    padding-top:4rem;
+}
+#Attraction h2{
+    padding-bottom: 2rem;
+}
+.attractionPara{
+    font-size: smaller;
+}
+.attractionAll{
+    position: relative;
+    padding: 2rem;
+}
+.attractionAll-image{
+    position: absolute;
+    animation: attrac 30s infinite;
+}
+.attractionAll h5{
+    position: absolute;
+    background: rgba(0,0,0,0.35);
+    padding: 5px;
+    color: white;
+    animation: attrach5 30s infinite;
+}
+.restaurant{
+    top:0;
+    left:4rem;
+}
+.restaurant-text{
+    top:350px;
+    left: 455px;
+}
+.livingroom{
+    top:0;
+    right:4rem;
+}
+.livingroom-text{
+    top:140px;
+    right: 6rem;
+}
+.kitchen{
+    right:4rem;
+    top:210px;
+}
+.kitchen-text{
+    right: 5.5rem;
+    top:350px;
+}
+.bedroom{
+    right: 4rem;
+    top: 420px;
+}
+.bedroom-text{
+    right: 5.5rem;
+    top:600px;
+}
+.extraimage{
+    left: 4rem;
+    top: 420px;
+}
+.extraimage-text{
+    top: 630px;
+    left: 280px;
+}
+#About{
+    padding-top: 41rem;
+}
+#About hr{
+    margin: auto;
+}
+@keyframes attrac{
+    50%{
+        right: 20%;
+        left: 20%;
+        top: 250px;
+        height: 200px;
+        width: 200px;
+    }
+}
+@keyframes attrach5{
+    50%{
+        left: 20%;
+        right: 20%;
+        top: 270px;
+        width: 10%;
+        margin: auto;
+    }
+}
+
+@media (max-width:900px){
+    .homeRow, .attractionRow{
+        margin: auto 5%;
+    }
+    .text{
+        text-align: center;
+    }
+    .mainPara{
+        width: 100%;
+    }
+    hr{
+        margin: auto;
+    }
+    .mainImage{
+        height: 200px;
+        width: 250px;
+    }
+    .mainImage2{
+        height: 200px;
+        width: 200px;
+    }
+    .attractionAll{
+        display: none;
+    }
+    #About{
+        padding-top: 1rem;
+    }
+}
