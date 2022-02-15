@@ -22,7 +22,7 @@ h2{
     font-weight: bold;
     color: #936D56;
 }
-.homeRow , .attractionRow, .attractionAll, .aboutRow{
+.homeRow , .attractionRow, .attractionAll{
     margin:auto 15%;
     padding: 1rem;
 }
@@ -133,6 +133,34 @@ img{
 #About hr{
     margin: auto;
 }
+.aboutRow{
+    margin: 3% 5%;
+}
+.aboutImageDiv{
+    width: 40%;
+}
+.aboutImage{
+    width: 400px;
+    box-shadow: 10px 10px 10px #936D56;
+}
+.aboutPara{
+    position: relative;
+    top:4rem;
+}
+.aboutRow button{
+    position: relative;
+    top:4rem;
+}
+#Join-Us{
+    margin: 3rem 20%;
+}
+#Join-Us p{
+    padding: 1.5rem;
+}
+form{
+    text-align: left;
+}
+
 @keyframes attrac{
     50%{
         right: 20%;
@@ -178,5 +206,17 @@ img{
     }
     #About{
         padding-top: 1rem;
+    }
+    .aboutImage{
+        width: 300px;
+    }
+    .aboutPara{
+        top:1rem;
+    }
+    .aboutRow button{
+        top: 1rem;
+    }
+    form{
+        text-align: center;
     }
 }
