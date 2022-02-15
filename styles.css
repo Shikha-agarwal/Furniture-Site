@@ -129,6 +129,7 @@ img{
 }
 #About{
     padding-top: 41rem;
+    padding-bottom: 4rem;
 }
 #About hr{
     margin: auto;
@@ -152,14 +153,35 @@ img{
     top:4rem;
 }
 #Join-Us{
-    margin: 3rem 20%;
+    background: linear-gradient(to right, #E2DCD3,white );
+    padding: 4rem 22%;
 }
 #Join-Us p{
     padding: 1.5rem;
+    padding-top:2rem;
 }
 form{
     text-align: left;
 }
+label{
+    font-weight: bold;
+    color:#936D56;
+}
+.form-control{
+    border: 1px solid #936D56;
+}
+.join-class{
+    width: 100%;
+    margin: auto;
+}
+.aboutJoin{
+    margin-top: 1rem;
+}
+hr{
+    margin: auto;
+}
+
+
 
 @keyframes attrac{
     50%{
@@ -179,7 +201,6 @@ form{
         margin: auto;
     }
 }
-
 @media (max-width:900px){
     .homeRow, .attractionRow{
         margin: auto 5%;
